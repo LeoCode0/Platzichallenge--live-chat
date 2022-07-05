@@ -1,10 +1,14 @@
 import React from 'react'
 
+import styles from "./styles.module.css"
+
 export const Message = ({ text, hour, sender = false }) => {
   return (
-    <li className={sender ? "sender" : "receiver"} >
-      <p>{text}</p>
-      <span>{hour}</span>
+    <li className={styles.message} >
+      <div className={sender ? styles.sender : styles.receiver } >
+        <p>{text}</p>
+        <span>{hour}</span>
+      </div>
     </li>
   )
 }

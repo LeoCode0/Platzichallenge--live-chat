@@ -1,0 +1,47 @@
+.chat{
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.header{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.messages{
+  height: 80vh;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form input{
+  width: 80%;
+}
+
+.form button{
+  width: 10%;
+  margin-left: 5px;
+}
+
+.form button, .form input{
+  height: 30px;
+  border: 1px solid gray;
+  padding: 5px;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
